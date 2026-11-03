@@ -5,6 +5,7 @@ Small Claude Code skills that add discipline without adding ceremony.
 | Skill | Triggers | What it does |
 |---|---|---|
 | [`ponytail-proof`](skills/ponytail-proof/SKILL.md) | automatically: bugs, bulk/irreversible actions, before "done" | Evidence before claims, a red-first loop for bugs, one-item-first for bulk changes |
+| [`secure-defaults`](skills/secure-defaults/SKILL.md) | new services, public repos, releases | Checklist for *missing* hardening: closed by default, sessions, proxy, secrets, temp files, containers |
 | [`grill`](skills/grill/SKILL.md) | only when you type `grill` / `/grill` | Questions your plan in short rounds, each with a recommended answer |
 
 `ponytail-proof` is written as a companion to a minimal-change skill like ponytail, but stands on its own.
